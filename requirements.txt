@@ -1,0 +1,38 @@
+# --------- pytorch --------- #
+torch>=2.0.0
+torchvision>=0.15.0
+lightning>=2.0.0
+torchmetrics>=0.11.4
+
+# --------- general --------- #
+python==3.11
+scikit-learn
+pandas
+numpy
+albumentations==2.0.4
+logging
+rich
+click
+git+https://github.com/openai/CLIP.git
+opencv-python
+seaborn
+timm
+torchpack
+onnx
+pytorch-lightning
+pydicom
+pillow
+
+# --------- MIM modules --------- #
+mmdet
+openmim
+mmengine
+mmcv<2.2.0
+
+# installation steps
+# $ pip install -U openmim
+# $ mim install mmengine
+# $ mim install "mmcv<2.2.0"
+
+# --------- External modules --------- #
+vector-quantize-pytorch
